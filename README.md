@@ -44,26 +44,11 @@ Returns the complete list of subscribers available in the database.
 ```http
 GET http://localhost:3000/subscribers
 ```
+<img width="1535" height="776" alt="Screenshot 2026-10-03 211545" src="https://github.com/user-attachments/assets/477d528b-5a01-4a0d-bc0e-811da3430f9c" />
 
 ---
 
-### 2. Get Subscriber by ID
-
-```http
-GET /subscribers/:id
-```
-
-Returns the details of a specific subscriber using their MongoDB ID.
-
-**Example:**
-
-```http
-GET http://localhost:3000/subscribers/64abc123...
-```
-
----
-
-### 3. Get Subscriber Names and Channels
+### 2. Get Subscriber Names and Channels
 
 ```http
 GET /subscribers/name
@@ -76,8 +61,27 @@ Returns subscriber information containing only the **subscriber name** and **sub
 ```http
 GET http://localhost:3000/subscribers/name
 ```
+<img width="1533" height="771" alt="Screenshot 2026-10-03 211617" src="https://github.com/user-attachments/assets/a5924215-c3c5-4548-8f39-efb5bc2fe058" />
 
 ---
+
+### 3. Get Subscriber by ID
+
+```http
+GET /subscribers/:id
+```
+
+Returns the details of a specific subscriber using their MongoDB ID.
+
+**Example:**
+
+```http
+GET http://localhost:3000/subscribers/64abc123...
+```
+<img width="1535" height="770" alt="Screenshot 2026-10-03 211645" src="https://github.com/user-attachments/assets/fbba0ba9-3f14-4635-a8ee-9a98a79d17bc" />
+
+---
+
 
 ## 📁 Project Structure
 
